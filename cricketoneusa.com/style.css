@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: #f77332!important;
+    height: 80px!important;
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: white!important;
+    padding: 8px;
+    background: transparent;
+    border: 3px solid white;
+    box-shadow: white 1px 1px 2px;
+}
+
+.nav-item{
+    padding: 20px;
+}
+
+.navbar-nav{
+    margin-right: 50px;
+}
+
+.navbar-brand{
+    margin-left: 100px;
+}
+
+.main-section{
+    background-image:linear-gradient(to right, rgb(247 115 50)7%, rgba(0,0,0,0.01)), url(../Images/cricketoneusa-bg.jpg);
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 50px;
+}
+
+.note{
+    margin-left: 100px;
+}
+
+.info{
+    margin-top: 150px;
+    color:#060606;;
+    font-size: 35px;
+    font-weight: 600;
+    text-shadow: black 2px 1px 3px;
+}
+
+.download-info{
+    color:#060606;;
+    font-size: 25px;
+    font-weight: 600;
+    text-shadow: black 2px 1px 3px;
+    margin-top: 30px;
+}
+
+.amount{
+    color: white;
+    font-size: 135px;
+}
+
+.reward{
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: right;
+    margin-right: 140px;
+    margin-top: -30px;
+}
+
+.second{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.second img{
+    margin-top: 120px;
+    height: 500px;
+}
+
+.code{
+    background-color:#FE7A1C;
+    color: white;
+    padding: 10px;
+}
+
+.number{
+    padding: 10px;
+    outline: none;
+    border: none;
+    width: 250px;
+    
+}
+
+.btn{
+    padding: 10px;
+    outline: none!important;
+    border: none!important;
+    background-color: #FE7A1C!important;
+    color: white!important;
+    margin-left: 10px!important;
+    height: 43px;
+    font-weight: 700!important;
+    text-transform: uppercase;
+}
+
+/*recaptcha design*/
+
+.g-recaptcha{
+    margin-top: 10px!important;
+}
+
+/*footer section styling*/
+.footer-section{
+    background-color: #f77332!important;
+    height: 100%;
+    padding-top: 50px;
+}
+
+.payment-partners-heading{
+    text-align: center;
+    color: #060606;
+}
+
+.partners{
+   text-align: center!important;
+}
+
+.list{
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+}
+
+.list a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.list a:hover{
+    color:#000000;
+}
+
+.list a li{
+    display: inline;
+    padding: 15px;
+}
+
+.image-18{
+    text-align:center;
+    padding-bottom: 10px;
+}
+
+.under-18{
+    height: 40px;
+    width: 40px;
+}
+
+.copyrights-section{
+    background-color: #bd4910!important;
+    margin-bottom: 0!important;
+    height: 100%;
+    text-align: center;
+}
+
+.copyright{
+    color: #000000;
+    padding: 15px;
+    margin-bottom: 0;
+}

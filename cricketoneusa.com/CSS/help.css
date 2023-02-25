@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: #f77332!important;
+    height: 80px!important;
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: white!important;
+    padding: 8px;
+    background: transparent;
+    border: 3px solid white;
+    box-shadow: white 1px 1px 2px;
+}
+
+.nav-item{
+    padding: 20px;
+}
+
+.navbar-nav{
+    margin-right: 50px;
+}
+
+.navbar-brand{
+    margin-left: 100px;
+}
+
+
+/*form-section*/
+.form-section{
+    background-color: #151515!important;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.form-section label{
+    color: #FE7A1C!important;
+}
+
+.form-section input{
+    background-color: transparent;
+    border: white solid 1px;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    color: white;
+    outline: none;
+}
+
+.form-section textarea{
+    background-color: transparent;
+    border: white solid 1px;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    color: white;
+    outline: none;
+}
+
+.submit-button{
+    padding: 10px;
+    background-color: #FE7A1C;
+    color: white;
+    font-weight: 700;
+    outline: none;
+    border: none;
+}
+
+
+/*footer section styling*/
+.footer-section{
+    background-color:  #f77332!important;
+    height: 100%;
+    padding-top: 50px;
+}
+
+.payment-partners-heading{
+    text-align: center;
+    color: #000000;
+}
+
+.partners{
+   text-align: center!important;
+}
+
+.list{
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+}
+
+.list a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.list a:hover{
+    color:#000000;
+}
+
+.list a li{
+    display: inline;
+    padding: 15px;
+}
+
+.image-18{
+    text-align:center;
+    padding-bottom: 10px;
+}
+
+.under-18{
+    height: 40px;
+    width: 40px;
+}
+
+.copyrights-section{
+    background-color: #bd4910!important;
+    margin-bottom: 0!important;
+    height: 100%;
+    text-align: center;
+}
+
+.copyright{
+    color: #000000;
+    padding: 15px;
+    margin-bottom: 0;
+}
