@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Trailer</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><img src="logo.png"></a>
+        <div class="toggle"></div>
+    </header>
+    <div class="banner">
+        <div class="content">
+            <h1>Design By <span>Vinayak</span>.Z</h1>
+            <h2>Put on a <span>Happy</span> face</h2>
+            
+             <p>I stir the sky, the day night
+                I dance with wind, in the rain
+                A bit of love, a drop of hony
+                and I dance dance dance
+                And in the noise, i run and I'm afraid
+                is it my turn?<br/>
+                Come the pain... 
+                In all of paris, i abandon myself<br/>
+                And i'm fly,fly,fly,fly,fly<br/>
+                Nothing but hope</p>
+                <a href="#" class="play" onclick="toggle();"><img src="play.png" alt="">Watch Trailer</a>
+                <div class="slide"></div>
+                <ul class="sci">
+                    <li><a href="#"><img src="facebook.png" alt=""></a></li>
+                    <li><a href="#"><img src="instagram.png" alt=""></a></li>
+                </ul>
+        </div>
+    </div>
+    <div class="trailer">
+        <video src="movie.mp4" controls="true"></video>
+        <img src="close.png" class="close" onclick="toggle();">
+    </div>
+    <div class="footer" style="color:black; font-size: larger; "><a href="https://vinayakz.github.io/" style="color:black;" target="blank">Made with ❤️ By Vinayak Z.</a></div>
+    <script>
+        function toggle(){
+            var trailer = document.querySelector('.trailer');
+            var video = document.querySelector('video');
+            trailer.classList.toggle('active');
+            video.currentTime= 0;
+            video.pause();
+        }
+    </script>
+</body>
+</html>
